@@ -22,7 +22,7 @@
   
   h1 {
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
   
   .container {
@@ -74,10 +74,10 @@
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto -11rem; /* the bottom margin is the negative value of the footer's height */
+  margin: 0 auto -8rem; /* the bottom margin is the negative value of the footer's height */
 }
 .footer, .push {
-  height: 11rem; /* .push must be the same height as .footer */
+  height: 8rem; /* .push must be the same height as .footer */
 }
 
   footer {
