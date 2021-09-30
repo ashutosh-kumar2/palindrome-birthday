@@ -187,6 +187,9 @@ function reverseStr(str){
         year: Number(listOfDate[0])
       }
     }
+    else{
+        resultMessage.innerText = "Please enter your birthday!"
+    }
     var isPalindrome = checkPalindromeForAllDateFormats(date);
     if(isPalindrome){
       resultMessage.innerText = "Yay! Your birthday is a palindrome!! 🥳"
