@@ -1,6 +1,6 @@
 # palindrome-birthday
 ### Tell your friends if their birthdates are palindrome.
-An app which checks whether your birthday is a palindrome birthday & if not let's you the nearest palindrome date with how many days you have missed
+An app which checks whether your birthday is a palindrome birthday & if not lets you know the nearest palindrome date with how many days you have missed.
 <br/>
 
 # How to use:
