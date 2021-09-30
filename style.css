@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+
+:root {
+    --background-dark: #34D399;
+    --black: #000;
+  }
+  
+  html {
+    background-color: var(--background-dark);
+    color: var(--black);
+    height: 100%;
+  }
+  
+  body{
+    height: 100%;
+  }
+
+  * {
+    font-family: 'Urbanist', sans-serif;
+    margin: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 3rem;
+  }
+  
+  .container {
+    width: 50%;
+    margin: auto;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    border: transparent;
+    font-size: large;
+    margin: 3rem 0rem;
+  }
+  
+  
+  #check-button {
+    background-color: var(--background-dark);
+    border: 2px solid var(--black);
+    color: var(--black);
+    padding: 0.4rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: var(--black);
+    margin: auto;
+    display: block;
+    margin-bottom: 3rem;
+  }
+  
+  #result {
+    display: block;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: x-large;
+    border-color: var(--black);
+    border-width: medium;
+    border-radius: 0.3rem;
+  }
+  
+  /* footer */
+  
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -11rem; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+  height: 11rem; /* .push must be the same height as .footer */
+}
+
+  footer {
+    text-align: center;
+    width: 100%;
+  }
+  
+  footer p {
+    font-size: 1.4rem;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  
+  footer ul {
+    padding-inline-start: 0px;
+    padding: 0.5rem 0rem;
+    margin: 0;
+  }
+  
+  a,
+  img,
+  li {
+    display: inline;
+    padding: 0rem 0.4rem;
+  }
+  
+  img {
+    width: 40px;
+    height: 40px;
+    padding: 0.2rem;  
+  }
